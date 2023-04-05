@@ -30,10 +30,10 @@ def convert_and_compress(image_path, dest_folder_path, quality=80):
     img.close()
 
 # Specify the root folder path where your images are located
-root_folder_path = 'scraping\google_images_scraping\download_images'
+root_folder_path = 'download_images'
 
 # Specify the destination folder path where you want to save the compressed images
-dest_folder_path = r'C:\Users\nello\Documents\vscode_projects\BirdsClassification\scraping\google_images_scraping\download_images_compressed'
+dest_folder_path = r'C:\Users\nello\Documents\vscode_projects\Image-Downloader\download_images_compressed'
 
 # Iterate through all the subfolders in the root folder
 for foldername in os.listdir(root_folder_path):
